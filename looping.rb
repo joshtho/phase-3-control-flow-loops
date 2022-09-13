@@ -1,5 +1,10 @@
 def happy_new_year
-  # your code here
+  counter = 10
+  until counter == 1
+    puts counter
+    counter -= 1
+    1 ? "Happy New Year!" : counter
+  end
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
